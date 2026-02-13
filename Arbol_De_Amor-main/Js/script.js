@@ -70,7 +70,7 @@ function showDedicationText() {
   let text = getURLParam('text');
 
   if (!text) {
-    text = `Para la persona más importante en mi mundo:\n\nNunca llegue a pensar que podria llegar a querer tanto a alguien...`;
+    text = `Para la persona más importante en mi mundo:\n\nNunca llegue a pensar que podria llegar a querer tanto a alguien. Tu risa, tu voz, tu forma de ser conmigo… todo en ti me hace sentir feliz, me hace sentir que por primera vez alguien me quiere.\n\nGracias por permitirme ser parte de tu vida, por alegrarme mis dias, y por ser la lucesita que ilumina mis dias.\n\nTe quiero más de lo que las palabras pueden expresar.`;
   } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
